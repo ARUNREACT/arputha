@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea4b4c5e.css",
+    "main.js": "/static/js/main.f6f3192f.js",
+    "static/js/453.76d7676e.chunk.js": "/static/js/453.76d7676e.chunk.js",
+    "static/media/customer-3.png": "/static/media/customer-3.e1456c571f54486e022e.png",
+    "static/media/arputha-logo.png": "/static/media/arputha-logo.292eb020736991fdc693.png",
+    "static/media/customer-2.png": "/static/media/customer-2.4baf06e088e39bcf9046.png",
+    "static/media/customer-1.png": "/static/media/customer-1.68d24e2040721112f4dd.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.ea4b4c5e.css.map": "/static/css/main.ea4b4c5e.css.map",
+    "main.f6f3192f.js.map": "/static/js/main.f6f3192f.js.map",
+    "453.76d7676e.chunk.js.map": "/static/js/453.76d7676e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea4b4c5e.css",
+    "static/js/main.f6f3192f.js"
+  ]
+}
