@@ -226,7 +226,7 @@ function Home() {
                 </p>
               </div>
 
-              <div className="mt-8 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
+              <div className="mt-8 grid grid-cols-1 sm:gap-y-16 gap-y-48 lg:grid-cols-2 lg:gap-x-8">
                 <div className="h-96 p-8">
                 <h2 className="text-center pb-6 text-2xl font-bold tracking-tight text-orange-500 sm:text-3xl">Product development</h2>
                   <img

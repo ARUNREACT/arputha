@@ -157,7 +157,7 @@ export default function About() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                 <div className="lg:pr-4 flex items-center justify-center h-full">
-                  <div className="border-2 p-4 h-96 w-96 rounded-full">
+                  <div className="border-2 p-4 sm:h-96 sm:w-96 rounded-full">
                     <img
                       alt=""
                       src={nagarajLogo}
@@ -201,7 +201,7 @@ export default function About() {
                   best results for our clients.
                 </p>
               </div>
-              <ul role="list" className="flex justify-around max-w-xl mx-auto">
+              <ul role="list" className="sm:flex justify-around max-w-xl mx-auto">
                 {people.map((person) => (
                   <li key={person.name}>
                     <div className="m-6">

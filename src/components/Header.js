@@ -18,14 +18,14 @@ export default function Header() {
     <header className="absolute inset-x-0 top-0 z-50 bg-white">
       <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <img
               alt="Logo"
               src={logoImage}
               className="h-10 sm-h-14 w-auto object-cover"
             />
           </a>
-          <a href="#" className="-m-1.5 p-1.5 flex items-center pt-4">
+          <a href="/" className="-m-1.5 p-1.5 flex items-center pt-4">
             <img
               alt="Tech"
               src={techImage}
@@ -60,11 +60,11 @@ export default function Header() {
         <div className="fixed inset-0 z-50" />
         <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                src={logoImage}
                 className="h-8 w-auto"
               />
             </a>

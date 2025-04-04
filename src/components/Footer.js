@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
 
           <div className="mt-16 flex justify-center sm-grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0 items-center">
-            <div className="md:grid md:grid-cols-3 md:gap-8">
+            <div className="flex sm:max-w-2xl w-full sm-justify-center justify-around md:gap-8">
               <div>
                 <a href="/" className="text-sm/6 font-semibold text-black text-center">Home</a>
               </div>
