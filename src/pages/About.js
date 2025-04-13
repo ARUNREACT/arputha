@@ -4,6 +4,8 @@ import nagarajLogo from '../asset/nagaraj.png';
 import custImage1 from '../asset/customer-1.png';
 import custImage2 from '../asset/customer-2.png';
 import custImage3 from '../asset/customer-3.png';
+import tank from '../asset/tank.jpeg';
+import video from '../asset/lu32006amv5i.mp4';
 
 const people = [
    {
@@ -69,7 +71,7 @@ export default function About() {
                     About us
                   </h1>
                   <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                   Arputha Advanced Systems Pvt. Ltd. is a tech-driven startup specializing in advanced electronics for defense, security, and industrial sectors. As iDEX DISC 6 winners, we are developing LED lighting and control systems for BMP II tanks. We also manufacture GSM-based IoT security alarms and AC supply EV chargers, delivering smart, reliable solutions for a safer and more connected future.
+                   Arputha Advanced Systems Pvt. Ltd. is a tech-driven startup specializing in advanced electronics for defense. As iDEX DISC 6 winners, we are developing LED lighting and control systems for BMP II tanks.
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <a
@@ -131,6 +133,60 @@ export default function About() {
               </div>
             </div>
           </div>
+
+          <div className="bg-white py-8">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+          <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base/7 text-gray-700 lg:max-w-none lg:grid-cols-2">
+            <div>
+            <h1 className="mt-2 pb-8 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
+            Product development
+          </h1>
+              <p>
+              We specialize in creating innovative
+              products from concept to market-ready solutions. Our team excels in designing, prototyping, and testing to ensure the highest quality and functionality.
+              </p>
+            </div>
+            <div>
+            <h1 className="mt-2 pb-8 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
+            Engineering Services
+          </h1>
+              <p>
+              We offer comprehensive engineering services,
+              including system design, integration, and optimization. Our expertise spans across various domains, ensuring tailored solutions that meet specific client needs
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="relative pt-16 lg:pt-20">
+        <div className="mx-auto w-full sm:max-w-7xl px-6 lg:px-8">
+          <img
+            alt=""
+            src={tank}
+            className="rounded-xl shadow-2xl ring-1 ring-gray-900/10 w-full"
+          />
+          <div aria-hidden="true" className="relative">
+            <div className="absolute -inset-x-20 bottom-0 bg-linear-to-t from-white pt-[7%]" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    {video && (
+  <video className='hidden' controls>
+    <source src="lu32006amv5i.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+)}
+
+<div className='flex justify-center max-w-7xl mx-auto'>
+<video className='sm:w-full w-full' controls>
+  <source src="lu32006amv5i.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+</div>
           <div className="bg-gray-50 py-8 sm:py-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <h2 className="text-center text-5xl font-semibold text-black pb-8">Our Customers</h2>
@@ -170,14 +226,14 @@ export default function About() {
                     <p className="text-base/7 font-semibold text-orange-600">Founder and Director</p>
                     <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
                       Mr. Nagaraj
+                      <span className='text-orange-600 text-2xl ml-2'>M.Tech,MBA</span>
                     </h1>
                     <div className="max-w-xl">
                       <p className="mt-6">
                         Mr. Nagaraj: With over 15 years of experience in the field of embedded systems, Mr. Nagaraj has   honed   his   expertise   at   prestigious
-                        companies such as BOSCH, Ashok Leyland, and   Lenox   International.   His   extensive
+                        companies such as BOSCH, Ashok Leyland, and   Pricol.   His   extensive
                         background   in   designing   and   developing cutting-edge embedded solutions makes him
-                        a pivotal force in driving our technological innovations.   His   leadership   and   technical
-                        acumen ensure that our products are at the forefront of industry standards.
+                        a pivotal force in driving our technological innovations. His leadership and technical acumen ensure that our products remain at the forefront of innovation.
                       </p>
                     </div>
                   </div>
@@ -218,7 +274,7 @@ export default function About() {
           </div>
           <section className="pt-4 md:pt-10">
           <p className="text-3xl md:text-5xl pb-8 text-black text-center font-bold">Our Services</p>
-            <div className="flex text-center w-full md:h-96 flex-col md:flex-row">
+            <div className="flex text-center w-full md:h-96 flex-col  md:flex-row">
               {/* Left Block */}
               <div
                 className="relative md:w-1/2 py-16 bg-cover flex flex-col justify-center items-center p-4"
@@ -236,6 +292,40 @@ export default function About() {
                 >
                   Visit Here
                 </a>
+              </div>
+
+              {/* Right Block */}
+              <div
+                className="relative md:w-1/2 bg-cover flex flex-col  items-center"
+              >
+                <ul className='text-xl text-left flex flex-col justify-center h-full h-100'>
+                  <li className='mt-2 list-disc'>Head Light</li>
+                  <li className='mt-2 list-disc'>Turret Light</li>
+                  <li className='mt-2 list-disc'>Dome Light</li>
+                  <li className='mt-2 list-disc'>Inspection Light</li>
+                  <li className='mt-2 list-disc'>Marker Light</li>
+                  <li className='mt-2 list-disc'>Marker light control unit</li>
+                  <li className='mt-2 list-disc'>Marker switch Panel</li>
+                  <li className='mt-2 list-disc'>Wiring Harness</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section className="pt-4 md:pt-10">
+            <div className="flex text-center w-full md:h-96 sm:flex-col flex-col-reverse md:flex-row">
+              {/* Left Block */}
+              <div
+                className="relative md:w-1/2 bg-cover flex flex-col  items-center"
+              >
+                <ul className='text-xl text-left flex flex-col justify-center h-full h-100'>
+                  <li className='mt-2 list-disc'>Product Development</li>
+                  <li className='mt-2 list-disc'>Consultant works</li>
+                  <li className='mt-2 list-disc'>PCB Design</li>
+                  <li className='mt-2 list-disc'>Embedded systems software</li>
+                  <li className='mt-2 list-disc'>Mechanical Design</li>
+                  <li className='mt-2 list-disc'>PCB Assembly</li>
+                </ul>
               </div>
 
               {/* Right Block */}

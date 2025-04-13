@@ -190,10 +190,10 @@ function Home() {
             <div className="mx-auto max-w-10xl sm:text-center">
               <h2 className="text-base/7 font-semibold text-orange-600">Innovative Solutions for a Smarter Future</h2>
               <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-10xl sm:text-balance">
-                Transforming Ideas into Advanced Technologies for Defense, Security, and Industry.
+                Transforming Ideas into Advanced Technologies for Defense, Lighting and Its Control Units.
               </p>
               <p className="mt-6 text-lg/8 text-gray-600">
-                At Arputha Advanced Systems, we specialize in designing, developing, and manufacturing cutting-edge electronic products that power industries, enhance security, and drive defense technologies. From LED lighting for military tanks to IoT-based security alarms and EV chargers, we create smarter, safer environments for residential, commercial, and industrial sectors. As iDEX DISC 6 winners, we are committed to delivering high-value solutions that elevate market presence and brand equity.
+                At Arputha Advanced Systems, we specialize in the design, development, and manufacturing of cutting-edge LED lighting systems and their control units for military tanks, trucks, ships, and aircraft. As iDEX DISC 6 winners, we are committed to delivering high-value solutions that enhance market presence and strengthen brand equity.
               </p>
             </div>
           </div>
@@ -260,7 +260,7 @@ function Home() {
             Powering Innovation with Advanced Electronics
           </h2>
           <p className="mx-auto mt-6 max-w-4xl text-lg/8 text-pretty text-white">
-            From defense systems to smart IoT solutions and EV technologies, Arputha Advanced Systems delivers 
+            Arputha Advanced Systems delivers 
             high-impact products engineered for real-world performance. Partner with us to bring your ideas to life.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
