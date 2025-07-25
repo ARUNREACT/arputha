@@ -2,7 +2,7 @@
 import certificates1 from '../asset/certificates-1.png';
 import gallery1 from '../asset/gallery1.png';
 import gallery2 from '../asset/gallery2.png';
-import gallery3 from '../asset/gallery3.webp';
+import gallery3 from '../asset/gallery3.png';
 
 export default function Gallery() {
 
