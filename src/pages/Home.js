@@ -1,7 +1,6 @@
 'use client'
 
 import '../App.css';
-import { Helmet } from 'react-helmet-async';
 import { useState } from 'react'
 import Carousel from '../components/Carousel';
 import custImage1 from '../asset/customer-1.png';
@@ -16,7 +15,7 @@ function Home() {
   return (
     <div className="bg-white">
       {/* ✅ Helmet Metadata for SEO */}
-      <Helmet>
+{/*      <Helmet>
         <title>Arputha Advanced Systems – Defense Lighting & Control Technologies</title>
         <meta
           name="description"
@@ -28,7 +27,7 @@ function Home() {
         />
         <meta name="author" content="Arputha Advanced Systems Pvt. Ltd." />
 
-        {/* Open Graph */}
+         Open Graph 
         <meta property="og:title" content="Arputha Advanced Systems – Advanced Electronics for Defense" />
         <meta
           property="og:description"
@@ -38,12 +37,12 @@ function Home() {
         <meta property="og:url" content="https://www.arputha-advancedsystems.com/" />
         <meta property="og:type" content="website" />
 
-        {/* Twitter Card */}
+         Twitter Card 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Arputha Advanced Systems" />
         <meta name="twitter:description" content="Leading defense LED lighting and control tech in India." />
         <meta name="twitter:image" content="https://www.arputha-advancedsystems.com/static/media/arputha-logo.292eb020736991fdc693.png" />
-      </Helmet>
+      </Helmet>*/}
 
       <main className="mt-20">
         <Carousel/>
