@@ -169,7 +169,7 @@ export default function About() {
 
       <section className='flex justify-center max-w-7xl mx-auto'>
         <video className='sm:w-full w-full' controls>
-          <source src="/lightings.mp4" type="video/mp4" />
+          <source src="/lightings-fixed.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>

@@ -55,7 +55,7 @@ export default function Carousel() {
           </div>
           <div className="hidden duration-700 ease-in-out flex" data-carousel-item>
             <video className='sm:w-full w-full' controls>
-              <source src="/lightings.mp4" type="video/mp4" />
+              <source src="/lightings-fixed.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
