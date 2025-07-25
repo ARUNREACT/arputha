@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.365afcad.css",
-    "main.js": "/static/js/main.359f41e2.js",
+    "main.js": "/static/js/main.fdcd50c1.js",
     "static/js/453.76d7676e.chunk.js": "/static/js/453.76d7676e.chunk.js",
-    "static/media/lightings.mp4": "/static/media/lightings.50672da50a37a8c19457.mp4",
     "static/media/certificates-1.png": "/static/media/certificates-1.516d469250204d212d20.png",
     "static/media/gallery1.png": "/static/media/gallery1.1699a5261bb7c6a5cebb.png",
     "static/media/gallery3.png": "/static/media/gallery3.63e1ae0714311ccd8a7c.png",
     "static/media/gallery2.png": "/static/media/gallery2.2af86b889fac7bc835ec.png",
+    "static/media/tank.png": "/static/media/tank.3c6dbdfe58a4e6481507.png",
     "static/media/Defense-Product-Image.png": "/static/media/Defense-Product-Image.e62ba65f29c6a2a4bac2.png",
     "static/media/customer-3.png": "/static/media/customer-3.e1456c571f54486e022e.png",
     "static/media/MBT.png": "/static/media/MBT.8c131364df2733fb5134.png",
@@ -17,7 +17,6 @@
     "static/media/Vishnu.png": "/static/media/Vishnu.903654a9e9a522881f0d.png",
     "static/media/arputha-logo.png": "/static/media/arputha-logo.292eb020736991fdc693.png",
     "static/media/contact-us.png": "/static/media/contact-us.b0b9af69334b079b1917.png",
-    "static/media/tank.jpeg": "/static/media/tank.50f87e21aaea1c1633f7.jpeg",
     "static/media/customer-2.png": "/static/media/customer-2.4baf06e088e39bcf9046.png",
     "static/media/customer-1.png": "/static/media/customer-1.68d24e2040721112f4dd.png",
     "static/media/Karthika.jpg": "/static/media/Karthika.c85441643fb7c9bbaee7.jpg",
@@ -31,11 +30,11 @@
     "static/media/Varadarajan.jpg": "/static/media/Varadarajan.0de38037046dff0bd770.jpg",
     "index.html": "/index.html",
     "main.365afcad.css.map": "/static/css/main.365afcad.css.map",
-    "main.359f41e2.js.map": "/static/js/main.359f41e2.js.map",
+    "main.fdcd50c1.js.map": "/static/js/main.fdcd50c1.js.map",
     "453.76d7676e.chunk.js.map": "/static/js/453.76d7676e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.365afcad.css",
-    "static/js/main.359f41e2.js"
+    "static/js/main.fdcd50c1.js"
   ]
 }

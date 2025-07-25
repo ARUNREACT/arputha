@@ -6,7 +6,6 @@ import armyJeep from '../asset/carousel/Army-jeep.jpg';
 import armyTank from '../asset/carousel/Army-Tank.jpg';
 import armyTruck from '../asset/carousel/Army-Truck.jpg';
 import fighterVehicle from '../asset/carousel/Fighter-vehicle.jpg';
-import lightingVideo from '../asset/lightings.mp4';
 
 export default function Carousel() {
 
@@ -55,8 +54,8 @@ export default function Carousel() {
               <img src={fighterVehicle} className="w-full h-[18rem] sm:h-[auto] sm:w-[50%] object-cover sm:pl-5" alt="fighterVehicle"/>
           </div>
           <div className="hidden duration-700 ease-in-out flex" data-carousel-item>
-            <video className='sm:w-full w-full' controls autoplay>
-              <source src={lightingVideo} type="video/mp4" />
+            <video className='sm:w-full w-full' controls>
+              <source src="/lightings.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
