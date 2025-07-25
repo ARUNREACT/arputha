@@ -11,6 +11,7 @@ import Sankar from '../asset/team/Sankar.png';
 import Saravanan from '../asset/team/Saravanan.png';
 import Varadarajan from '../asset/team/Varadarajan.jpg';
 import Vishnu from '../asset/team/Vishnu.png';
+import lightingVideo from '../asset/lightings.mp4';
 
 const management = [
    {
@@ -159,7 +160,7 @@ export default function About() {
         <div className="relative pt-16 lg:pt-20">
           <div className="mx-auto w-full sm:max-w-7xl px-6 lg:px-8">
             <img
-              alt=""
+              alt="tank"
               src={tank}
               className="rounded-xl shadow-2xl ring-1 ring-gray-900/10 w-full"
             />
@@ -169,7 +170,7 @@ export default function About() {
 
       <section className='flex justify-center max-w-7xl mx-auto'>
         <video className='sm:w-full w-full' controls>
-          <source src="/lightings.mp4" type="video/mp4" />
+          <source src={lightingVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>
