@@ -3,11 +3,12 @@ import React, { useState } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import logoImage from '../asset/arputha-logo.png';
-import techImage from '../asset/3.png';
 
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About us', href: '/about' },
+  { name: 'Certificates', href: '/Certificates' },
+  { name: 'Gallery', href: '/gallery' },
   { name: 'Contact us', href: '/contact' },
 ];
 
@@ -15,7 +16,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50 bg-white">
+    <header className="fixed inset-x-0 top-0 z-50 bg-white block shadow-lg">
       <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
@@ -23,13 +24,6 @@ export default function Header() {
               alt="Logo"
               src={logoImage}
               className="h-10 sm-h-14 w-auto object-cover"
-            />
-          </a>
-          <a href="/" className="-m-1.5 p-1.5 flex items-center pt-4">
-            <img
-              alt="Tech"
-              src={techImage}
-              className="h-8 sm-h-10 w-auto object-cover"
             />
           </a>
         </div>

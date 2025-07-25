@@ -1,6 +1,5 @@
 import React from 'react';
 import logoImage from '../asset/arputha-logo.png';
-import techImage from '../asset/3.png';
 
 const Footer = () => {
   return (
@@ -15,25 +14,23 @@ const Footer = () => {
                 className="h-14 w-auto object-cover"
               />
             </a>
-            <a href="/" className="-m-1.5 p-1.5 pt-4">
-              <img
-                alt="Tech"
-                src={techImage}
-                className="h-12 w-auto object-cover ml-8"
-              />
-            </a>
           </div>
-
           <div className="mt-16 flex justify-center sm-grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0 items-center">
-            <div className="flex sm:max-w-2xl w-full sm-justify-center justify-around md:gap-8">
+            <div className="flex gap-5 flex-wrap sm:max-w-2xl w-full sm-justify-center justify-around md:gap-8">
               <div>
                 <a href="/" className="text-sm/6 font-semibold text-black text-center">Home</a>
               </div>
-              <div className="md:mt-0">
-                <a href="/contact" className="text-sm/6 font-semibold text-black text-center">Contact us</a>
-              </div>
               <div>
                 <a href="/about" className="text-sm/6 font-semibold text-black text-center">About us</a>
+              </div>
+              <div>
+                <a href="/certificates" className="text-sm/6 font-semibold text-black text-center">Certificates</a>
+              </div>
+              <div>
+                <a href="/gallery" className="text-sm/6 font-semibold text-black text-center">Gallery</a>
+              </div>
+              <div className="md:mt-0">
+                <a href="/contact" className="text-sm/6 font-semibold text-black text-center">Contact us</a>
               </div>
             </div>
           </div>
