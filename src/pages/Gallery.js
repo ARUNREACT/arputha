@@ -1,7 +1,7 @@
 'use client'
 import certificates1 from '../asset/certificates-1.png';
-import gallery1 from '../asset/gallery1.jpeg';
-import gallery2 from '../asset/gallery2.jpeg';
+import gallery1 from '../asset/gallery1.png';
+import gallery2 from '../asset/gallery2.png';
 import gallery3 from '../asset/gallery3.webp';
 
 export default function Gallery() {

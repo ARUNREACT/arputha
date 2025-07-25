@@ -6,8 +6,8 @@ import custImage2 from '../asset/customer-2.png';
 import custImage3 from '../asset/customer-3.png';
 import tank from '../asset/tank.jpeg';
 import Karthika from '../asset/team/Karthika.jpg';
-import Ravindran from '../asset/team/Ravindran.jpeg';
-import Sankar from '../asset/team/Sankar.jpeg';
+import Ravindran from '../asset/team/Ravindran.png';
+import Sankar from '../asset/team/Sankar.png';
 import Saravanan from '../asset/team/Saravanan.png';
 import Varadarajan from '../asset/team/Varadarajan.jpg';
 import Vishnu from '../asset/team/Vishnu.png';
@@ -169,7 +169,7 @@ export default function About() {
 
       <section className='flex justify-center max-w-7xl mx-auto'>
         <video className='sm:w-full w-full' controls>
-          <source src="lu32006amv5i.mp4" type="video/mp4" />
+          <source src="/lu32006amv5i.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>
