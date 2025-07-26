@@ -3,14 +3,14 @@
 import '../App.css';
 import { useState } from 'react'
 import Carousel from '../components/Carousel';
-import custImage1 from '../asset/customer-1.png';
-import custImage2 from '../asset/customer-2.png';
-import custImage3 from '../asset/customer-3.png';
-
-
+import Gallery from '../components/GalleryComponent';
+import Customers from '../components/Customers';
+import 'swiper/css';
+import 'swiper/css/autoplay';
+import 'swiper/css/free-mode';
 
 function Home() {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <div className="bg-white">
@@ -46,11 +46,11 @@ function Home() {
 
       <main className="mt-20">
         <Carousel/>
-        <section className="mt-32 sm:mt-16">
+        <section className="mt-16 sm:mt-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-10xl sm:text-center">
               <h2 className="text-base/7 font-semibold text-orange-600">Innovative Solutions for a Smarter Future</h2>
-              <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-10xl sm:text-balance">
+              <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-10xl sm:text-balance">
                 Transforming Ideas into Advanced Technologies for Defense, Lighting and Its Control Units.
               </p>
               <p className="mt-6 text-lg/8 text-gray-600">
@@ -73,30 +73,10 @@ function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-gray-50 py-8 sm:py-16">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <h2 className="text-center text-5xl font-semibold text-black pb-8">Our Customers</h2>
-            <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-              <img
-                alt="Transistor"
-                src={custImage1}
-                className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
-              />
-              <img
-                alt="Reform"
-                src={custImage2}
-                className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
-              />
-              <img
-                alt="Tuple"
-                src={custImage3}
-                className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
-              />
-            </div>
-          </div>
-        </section>
+        <Customers/>
+        <Gallery/>
         <section className="bg-white">
-          <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+          <div className="mx-auto max-w-7xl py-12 sm:px-6 sm:py-32 lg:px-8">
             <div className="relative isolate overflow-hidden bg-gray-700 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
               <h2 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
                 Powering Innovation with Advanced Electronics

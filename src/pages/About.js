@@ -1,16 +1,13 @@
 // src/pages/Contact.js
 import React from 'react';
 import nagarajLogo from '../asset/nagaraj.png';
-import custImage1 from '../asset/customer-1.png';
-import custImage2 from '../asset/customer-2.png';
-import custImage3 from '../asset/customer-3.png';
-import tank from '../asset/tank.png';
+import tank from '../asset/Product-photos.jpg';
 import Karthika from '../asset/team/Karthika.jpg';
 import Ravindran from '../asset/team/Ravindran.png';
 import Sankar from '../asset/team/Sankar.png';
 import Saravanan from '../asset/team/Saravanan.png';
 import Varadarajan from '../asset/team/Varadarajan.jpg';
-import Vishnu from '../asset/team/Vishnu.png';
+import Customers from '../components/Customers';
 
 const management = [
    {
@@ -27,11 +24,6 @@ const management = [
     name: 'Ms.Karthika ',
     role: 'Director',
     imageUrl:Karthika,
-  },
-  {
-    name: 'Vishnu ',
-    role: 'CFO',
-    imageUrl:Vishnu,
   }
 ]
 
@@ -85,7 +77,7 @@ export default function About() {
       </div>
 
       <div className="overflow-hidden">
-        <div className="mx-auto max-w-7xl px-6 pt-36 pb-32 sm:pt-60 lg:px-8 lg:pt-32">
+        <div className="mx-auto max-w-7xl px-6 pt-36 sm:pb-32 sm:pt-60 lg:px-8 lg:pt-32">
           <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
             <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
               <h1 className="text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl">
@@ -161,7 +153,7 @@ export default function About() {
             <img
               alt="tank"
               src={tank}
-              className="rounded-xl shadow-2xl ring-1 ring-gray-900/10 w-full"
+              className="rounded-xl shadow-2xl ring-1 ring-gray-900/10 w-full object-contain"
             />
           </div>
         </div>
@@ -174,30 +166,9 @@ export default function About() {
         </video>
       </section>
 
-      <section className="bg-gray-50 py-8 sm:py-16">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-center text-5xl font-semibold text-black pb-8">Our Customers</h2>
-          <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            <img
-              alt="Transistor"
-              src={custImage1}
-              className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
-            />
-            <img
-              alt="Reform"
-              src={custImage2}
-              className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
-            />
-            <img
-              alt="Tuple"
-              src={custImage3}
-              className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
-            />
-          </div>
-        </div>
-      </section>
+      <Customers/>
 
-       <section className="bg-white py-12 sm:py-16">
+       <section className="bg-white py-12 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-4 flex items-center justify-center h-full">

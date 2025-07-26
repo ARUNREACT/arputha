@@ -7,6 +7,7 @@ import logoImage from '../asset/arputha-logo.png';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About us', href: '/about' },
+  { name: 'Products', href: '/products' },
   { name: 'Certificates', href: '/Certificates' },
   { name: 'Gallery', href: '/gallery' },
   { name: 'Contact us', href: '/contact' },

@@ -7,6 +7,7 @@ import Certificates from './pages/Certificates';
 import Gallery from './pages/Gallery';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Products from './pages/Products';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/certificates" element={<Certificates />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
