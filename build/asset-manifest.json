@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cfddeec0.css",
-    "main.js": "/static/js/main.d11fbc99.js",
+    "main.js": "/static/js/main.a6fefc1c.js",
     "static/js/453.76d7676e.chunk.js": "/static/js/453.76d7676e.chunk.js",
     "static/media/certificates-1.png": "/static/media/certificates-1.516d469250204d212d20.png",
     "static/media/image1.png": "/static/media/image1.be876bb85c26caf1e601.png",
@@ -9,10 +9,13 @@
     "static/media/gallery1.png": "/static/media/gallery1.1699a5261bb7c6a5cebb.png",
     "static/media/gallery3.png": "/static/media/gallery3.63e1ae0714311ccd8a7c.png",
     "static/media/gallery4.jpg": "/static/media/gallery4.6a5a3fffbf61515114f5.jpg",
+    "static/media/gallery6.png": "/static/media/gallery6.8b9260122da790c49083.png",
+    "static/media/gallery5.png": "/static/media/gallery5.30c19ba9861e9282f79d.png",
     "static/media/gallery2.png": "/static/media/gallery2.2af86b889fac7bc835ec.png",
     "static/media/customer-3.png": "/static/media/customer-3.e1456c571f54486e022e.png",
     "static/media/image3.png": "/static/media/image3.f4242be77e7b0689cd7f.png",
     "static/media/Sankar.png": "/static/media/Sankar.3e2b74d40d50c688c593.png",
+    "static/media/gallery7.png": "/static/media/gallery7.3e252007fcabc1d9ffaa.png",
     "static/media/arputha-logo.png": "/static/media/arputha-logo.292eb020736991fdc693.png",
     "static/media/Product-photos.jpg": "/static/media/Product-photos.60b2d845664ebab9c077.jpg",
     "static/media/contact-us.png": "/static/media/contact-us.b0b9af69334b079b1917.png",
@@ -31,11 +34,11 @@
     "static/media/Varadarajan.jpg": "/static/media/Varadarajan.0de38037046dff0bd770.jpg",
     "index.html": "/index.html",
     "main.cfddeec0.css.map": "/static/css/main.cfddeec0.css.map",
-    "main.d11fbc99.js.map": "/static/js/main.d11fbc99.js.map",
+    "main.a6fefc1c.js.map": "/static/js/main.a6fefc1c.js.map",
     "453.76d7676e.chunk.js.map": "/static/js/453.76d7676e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfddeec0.css",
-    "static/js/main.d11fbc99.js"
+    "static/js/main.a6fefc1c.js"
   ]
 }

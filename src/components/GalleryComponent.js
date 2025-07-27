@@ -9,9 +9,12 @@ import gallery1 from '../asset/gallery1.png';
 import gallery2 from '../asset/gallery2.png';
 import gallery3 from '../asset/gallery3.png';
 import gallery4 from '../asset/gallery4.jpg';
+import gallery5 from '../asset/gallery5.png';
+import gallery6 from '../asset/gallery6.png';
+import gallery7 from '../asset/gallery7.png';
 
 export default function GalleryComponent() {
-  const gallery = [gallery3, gallery1, gallery2, gallery4];
+  const gallery = [gallery3, gallery1, gallery2, gallery4, gallery5, gallery6, gallery7];
 
   return (
     <div className="bg-white sm:mt-20 py-12 mx-auto max-w-7xl px-6 lg:px-8 text-center">
