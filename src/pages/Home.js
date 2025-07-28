@@ -49,11 +49,11 @@ function Home() {
         <section className="mt-16 sm:mt-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-10xl sm:text-center">
-              <h2 className="text-base/7 font-semibold text-orange-600">Innovative Solutions for a Smarter Future</h2>
-              <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-10xl sm:text-balance">
+              <h2 className="text-xl sm:text-2xl font-semibold text-orange-600">Innovative Solutions for a Smarter Future</h2>
+              <p className="mt-2 text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl sm:text-balance">
                 Transforming Ideas into Advanced Technologies for Defense, Lighting and Its Control Units.
               </p>
-              <p className="mt-6 text-lg/8 text-gray-600">
+              <p className="mt-6 text-xl text-gray-600">
                 At Arputha Advanced Systems, we specialize in the design, development, and manufacturing of cutting-edge LED lighting systems and their control units for military tanks, trucks, ships, and aircraft. As iDEX DISC 6 winners, we are committed to delivering high-value solutions that enhance market presence and strengthen brand equity.
               </p>
             </div>

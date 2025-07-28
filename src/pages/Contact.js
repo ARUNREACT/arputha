@@ -5,7 +5,7 @@ import contactUs from '../asset/contact-us.png';
 export default function Contact() {
   return (
     <div>
-    <div className="relative isolate overflow-hidden pt-14">
+    <div className="relative isolate overflow-hidden pt-32">
         <img
           alt="contact-hero-img"
           src={contactUs}
@@ -47,32 +47,22 @@ export default function Contact() {
       <div className="bg-white py-8 sm:py-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
-              <div className="grid grid-cols-1 gap-10 py-16 lg:grid-cols-3">
-                <div>
-                  <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900">Locations</h2>
-                  <p className="mt-4 text-base/7 text-gray-600">
+              <div className="flex flex-wrap lg:flex-nowrap gap-10 py-16 ">
+                <div className="p-10">
+                  <h2 className="text-2xl sm:text-4xl font-semibold tracking-tight text-pretty text-gray-900">Locations</h2>
+                  <p className="mt-4 text-xl sm:text-2xl text-gray-600 max-w-xl">
                     With locations across the region, we're always within reach to support your needs.
                   </p>
                 </div>
-                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
-                  <div className="rounded-2xl bg-gray-100 p-10">
-                    <h3 className="text-base/7 font-semibold text-gray-900">Arputha Advanced Systems Private Limited</h3>
-                    <address className="mt-3 space-y-1 text-sm/6 text-gray-600 not-italic">
+                <div className="gap-6 lg:gap-8">
+                  <div className="rounded-2xl bg-gray-100 md:w-[40rem] p-10">
+                    <h3 className="text-2xl sm:text-3xl font-semibold text-gray-900">Arputha Advanced Systems Private Limited</h3>
+                    <address className="mt-6 space-y-1 text-xl sm:text-2xl text-gray-600 not-italic">
                       <p>No 2,1st Floor, Vetri layout</p>
                       <p>Vilankurichi main road, cheran ma nagar</p>
                       <p>Coimbatore-35, Tamilnadu</p>
                       <p>Phone: 7305216414</p>
                       <p>GSTIN: 33AAVCA2418C1ZY</p>
-                    </address>
-                  </div>
-                  <div className="rounded-2xl bg-gray-100 p-10">
-                    <h3 className="text-base/7 font-semibold text-gray-900">Arputha Technologies</h3>
-                    <address className="mt-3 space-y-1 text-sm/6 text-gray-600 not-italic">
-                      <p>No.2, Vetri Layout,</p>
-                      <p>Cheran ma nagar,</p>
-                      <p>Coimbatore-641035,</p>
-                      <p>Ph:7305216414</p>
-                      <p>GSTIN :33AHFPN2389D1ZG</p>
                     </address>
                   </div>
                 </div>

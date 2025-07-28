@@ -29,9 +29,6 @@ const Footer = () => {
               <div>
                 <a href="/certificates" className="text-sm/6 font-semibold text-black text-center">Certificates</a>
               </div>
-              <div>
-                <a href="/gallery" className="text-sm/6 font-semibold text-black text-center">Gallery</a>
-              </div>
               <div className="md:mt-0">
                 <a href="/contact" className="text-sm/6 font-semibold text-black text-center">Contact us</a>
               </div>

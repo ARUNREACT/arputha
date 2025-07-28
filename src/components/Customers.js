@@ -8,15 +8,17 @@ import custImage2 from '../asset/customer-2.png';
 import custImage3 from '../asset/customer-3.png';
 import custImage4 from '../asset/customer-4.png';
 import custImage5 from '../asset/customer-5.png';
+import custImage6 from '../asset/customer-6.jpg';
+
 
 export default function Customers() {
-  const images = [custImage1, custImage2, custImage3, custImage4, custImage5];
+  const images = [custImage1, custImage2, custImage3, custImage4, custImage5, custImage6];
 
   return (
     <section className="pt-12 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-2xl sm:text-5xl font-semibold text-black pb-8 sm:pb-12">
-          Our Customers
+          Our Clients & Partners
         </h2>
         <Swiper
           modules={[Autoplay]}

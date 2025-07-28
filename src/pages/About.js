@@ -2,10 +2,10 @@
 import React from 'react';
 import nagarajLogo from '../asset/nagaraj.png';
 import tank from '../asset/Product-photos.jpg';
-import Karthika from '../asset/team/Karthika.jpg';
+import Karthika from '../asset/team/Karthika.jpeg';
 import Ravindran from '../asset/team/Ravindran.png';
 import Sankar from '../asset/team/Sankar.png';
-import Saravanan from '../asset/team/Saravanan.png';
+import Saravanan from '../asset/team/Saravanan.jpeg';
 import Varadarajan from '../asset/team/Varadarajan.jpg';
 import Customers from '../components/Customers';
 
@@ -77,7 +77,7 @@ export default function About() {
       </div>
 
       <div className="overflow-hidden">
-        <div className="mx-auto max-w-7xl px-6 pt-36 sm:pb-32 sm:pt-60 lg:px-8 lg:pt-32">
+        <div className="mx-auto max-w-7xl px-6 mt-36 sm:pb-32 sm:pt-60 lg:px-8 lg:mt-4">
           <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
             <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
               <h1 className="text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl">
@@ -147,7 +147,7 @@ export default function About() {
         </div>
       </div>
 
-      <section className="bg-white py-8">
+{/*      <section className="bg-white py-8">
         <div className="relative pt-16 lg:pt-20">
           <div className="mx-auto w-full sm:max-w-7xl px-6 lg:px-8">
             <img
@@ -157,14 +157,14 @@ export default function About() {
             />
           </div>
         </div>
-      </section>
+      </section>*/}
 
-      <section className='flex justify-center max-w-7xl mx-auto'>
+{/*      <section className='flex justify-center max-w-7xl mx-auto'>
         <video className='sm:w-full w-full' controls>
           <source src="/lightings-fixed.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </section>
+      </section>*/}
 
       <Customers/>
 
@@ -189,10 +189,7 @@ export default function About() {
                 </h1>
                 <div className="max-w-xl">
                   <p className="mt-6">
-                    Mr. Nagaraj: With over 15 years of experience in the field of embedded systems, Mr. Nagaraj has   honed   his   expertise   at   prestigious
-                    companies such as BOSCH, Ashok Leyland, and   Pricol.   His   extensive
-                    background   in   designing   and   developing cutting-edge embedded solutions makes him
-                    a pivotal force in driving our technological innovations. His leadership and technical acumen ensure that our products remain at the forefront of innovation.
+                    Mr. Nagaraj  M.Tech, is Director of Arputha Advanced Systems with over 15 years of experience in automotive product development. He has worked with leading companies such as Ashok Leyland, Pricol, and Bosch, specializing in lighting systems, control units, and embedded electronics. His expertise spans design, validation, and production of high-reliability systems. Passionate about indigenous defense technology, he founded Arputha to deliver advanced lighting and control solutions for armored vehicles.
                   </p>
                 </div>
               </div>
@@ -223,7 +220,7 @@ export default function About() {
               <li key={person.name} className="w-[90%]">
                 <div className="m-6">
                   <div className='flex justify-center'>
-                    <img alt="" src={person.imageUrl} className="h-36 w-36 object-cover rounded-full" />
+                    <img alt="" src={person.imageUrl} className="h-36 w-36 object-contain shadow-xl rounded-full" />
                   </div>
                   <div className="text-center pt-4">
                     <h3 className="text-2xl font-semibold tracking-tight text-gray-900">{person.name}</h3>
@@ -239,7 +236,7 @@ export default function About() {
               <li key={person.name} className="w-[90%]">
                 <div className="m-6">
                   <div className='flex justify-center'>
-                    <img alt="" src={person.imageUrl} className="h-36 w-36 object-cover rounded-full" />
+                    <img alt="" src={person.imageUrl} className="h-36 w-36 object-cover shadow-xl rounded-full" />
                   </div>
                   <div className="text-center pt-4">
                     <h3 className="text-2xl font-semibold tracking-tight text-gray-900">{person.name}</h3>

@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import logoImage from '../asset/arputha-logo.png';
+import armol from '../asset/armol.jpeg';
 
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About us', href: '/about' },
   { name: 'Products', href: '/products' },
   { name: 'Certificates', href: '/Certificates' },
-  { name: 'Gallery', href: '/gallery' },
   { name: 'Contact us', href: '/contact' },
 ];
 
@@ -24,11 +24,11 @@ export default function Header() {
             <img
               alt="Logo"
               src={logoImage}
-              className="h-10 sm-h-14 w-auto object-cover"
+              className="sm:h-24 w-[8rem] sm:w-[16rem] w-auto object-cove"
             />
           </a>
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex lg:hidden order-3 order-sm-2">
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
@@ -38,17 +38,24 @@ export default function Header() {
             <Bars3Icon aria-hidden="true" className="size-6" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:gap-x-24 justify-center">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-black">
+            <a key={item.name} href={item.href} className="text-xl font-semibold text-black">
               {item.name}
             </a>
           ))}
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm/6 font-semibold text-black">
-            {/* Optional CTA */}
-          </a>
+        <div className="flex lg:flex-1 justify-center order-1 order-sm-3">
+          <div> 
+          <span className="text-end block font-bold">TM</span>
+            <a href="/" className="">
+              <img
+                alt="Logo"
+                src={armol}
+                className="w-16 sm:h-24 sm:w-28 w-auto object-cover"
+              />
+            </a>
+          </div>
         </div>
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">

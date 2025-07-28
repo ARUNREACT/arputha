@@ -8,8 +8,9 @@ import 'swiper/css/pagination';
 import { useRef } from 'react';
 
 import image1 from '../asset/carousel/image1.png';
-import image2 from '../asset/carousel/image2.png';
-import image3 from '../asset/carousel/image3.png';
+import image5 from '../asset/carousel/carouselnew/BMP 2.avif';
+import image8 from '../asset/carousel/carouselnew/Defence-Vehicles.jpeg';
+
 
 const slides = [
   {
@@ -21,21 +22,11 @@ const slides = [
         <h1 className="text-2xl md:text-5xl font-bold text-center max-w-7xl">
           We are innovative defense lightings and Control Units Manufacturing Company in India
         </h1>
-        <p className="mt-4 text-lg md:text-xl text-center max-w-7xl">
-          Designing and manufacturing advanced systems like LED lighting for BMP II Tanks and IoT-based security solutions.
-        </p>
-        <a
-          href="/contact"
-          className="mt-6 inline-block bg-orange-400 px-6 py-2 text-black font-semibold rounded hover:bg-gray-700 hover:text-white"
-        >
-          Contact Us
-        </a>
       </div>
     ),
   },
-  { type: 'image', src: image2, alt: 'Slide 2' },
-  { type: 'image', src: image3, alt: 'Slide 3' },
-  { type: 'video', src: '/lightings-fixed.mp4', alt: 'Video Slide' },
+  { type: 'image', src: image5, alt: 'Slide 5' },
+  { type: 'image', src: image8, alt: 'Slide 8' },
 ];
 
 export default function SwiperCarousel() {
@@ -48,7 +39,7 @@ export default function SwiperCarousel() {
         modules={[Navigation, Pagination, Autoplay]}
         loop={true}
         autoplay={{
-          delay: 5000,
+          delay: 500000,
           disableOnInteraction: false,
         }}
         navigation={true}
@@ -58,23 +49,11 @@ export default function SwiperCarousel() {
         {slides.map((slide, idx) => (
           <SwiperSlide key={idx}>
             <div className="relative w-full h-full">
-              {slide.type === 'image' ? (
                 <img
                   src={slide.src}
                   alt={slide.alt}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-conver"
                 />
-              ) : (
-                <video
-                  className="w-full h-full object-cover"
-                  controls
-                  onPlay={() => swiperRef.current?.swiper?.autoplay.stop()}
-                  onPause={() => swiperRef.current?.swiper?.autoplay.start()}
-                >
-                  <source src={slide.src} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              )}
               {slide.content && (
                 <div className="absolute inset-0 z-10">{slide.content}</div>
               )}
