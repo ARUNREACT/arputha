@@ -54,7 +54,7 @@ function Home() {
                 Transforming Ideas into Advanced Technologies for Defense, Lighting and Its Control Units.
               </p>
               <p className="mt-6 text-xl text-gray-600">
-                At Arputha Advanced Systems, we specialize in the design, development, and manufacturing of cutting-edge LED lighting systems and their control units for military tanks, trucks, ships, and aircraft. As iDEX DISC 6 winners, we are committed to delivering high-value solutions that enhance market presence and strengthen brand equity.
+                At Arputha Advanced Systems, we specialize in the design, development, and manufacturing of cutting-edge LED lighting systems and their control units for military tanks and armored vehicles. As iDEX DISC 6 winners, we are committed to delivering high-value solutions that enhance market presence and strengthen brand equity.
               </p>
             </div>
           </div>
