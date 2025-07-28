@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b1ea10d3.css",
-    "main.js": "/static/js/main.3a318af9.js",
+    "main.js": "/static/js/main.25de3d08.js",
     "static/js/453.76d7676e.chunk.js": "/static/js/453.76d7676e.chunk.js",
     "static/media/certificates-1.png": "/static/media/certificates-1.516d469250204d212d20.png",
     "static/media/image1.png": "/static/media/image1.be876bb85c26caf1e601.png",
@@ -12,23 +12,24 @@
     "static/media/gallery6.png": "/static/media/gallery6.8b9260122da790c49083.png",
     "static/media/gallery5.png": "/static/media/gallery5.30c19ba9861e9282f79d.png",
     "static/media/gallery2.png": "/static/media/gallery2.2af86b889fac7bc835ec.png",
+    "static/media/Defence-Vehicles.png": "/static/media/Defence-Vehicles.7af158d03fc9873dd902.png",
+    "static/media/Karthika.png": "/static/media/Karthika.a3339aedd8073b294364.png",
     "static/media/customer-3.png": "/static/media/customer-3.e1456c571f54486e022e.png",
+    "static/media/BMP 2.png": "/static/media/BMP 2.5d65e678791c3c28c3f7.png",
+    "static/media/armol.png": "/static/media/armol.d6ce2b11e6f7f147b563.png",
     "static/media/Sankar.png": "/static/media/Sankar.3e2b74d40d50c688c593.png",
     "static/media/gallery7.png": "/static/media/gallery7.3e252007fcabc1d9ffaa.png",
-    "static/media/Defence-Vehicles.jpeg": "/static/media/Defence-Vehicles.be6e491162c369d65be9.jpeg",
     "static/media/arputha-logo.png": "/static/media/arputha-logo.292eb020736991fdc693.png",
     "static/media/Product-photos.jpg": "/static/media/Product-photos.60b2d845664ebab9c077.jpg",
-    "static/media/Karthika.jpeg": "/static/media/Karthika.d01dd3d41df0ca1a052a.jpeg",
     "static/media/contact-us.png": "/static/media/contact-us.b0b9af69334b079b1917.png",
     "static/media/customer-2.png": "/static/media/customer-2.4baf06e088e39bcf9046.png",
     "static/media/customer-1.png": "/static/media/customer-1.68d24e2040721112f4dd.png",
-    "static/media/armol.jpeg": "/static/media/armol.3eb3bc6750a9a0f1b42c.jpeg",
     "static/media/Ravindran.png": "/static/media/Ravindran.63a0db4de9cb6aa9ef7f.png",
     "static/media/nagaraj.png": "/static/media/nagaraj.858f5fd2428d08c989d2.png",
     "static/media/customer-4.png": "/static/media/customer-4.6caf02783e09c7547bd4.png",
     "static/media/image5.png": "/static/media/image5.6a8c2493f6a71aedb198.png",
+    "static/media/Saravanan.png": "/static/media/Saravanan.647279a08487543c82e4.png",
     "static/media/image7.png": "/static/media/image7.055572d873dc4baaa7f1.png",
-    "static/media/BMP 2.avif": "/static/media/BMP 2.8ff1f76e8af4adac458a.avif",
     "static/media/image6.png": "/static/media/image6.f5a0faf15722c321638a.png",
     "static/media/image8.png": "/static/media/image8.7dc2bf71c4f0b9cc9264.png",
     "static/media/customer-5.png": "/static/media/customer-5.dffeb7d886fb5e315e5b.png",
@@ -36,11 +37,11 @@
     "static/media/Varadarajan.jpg": "/static/media/Varadarajan.0de38037046dff0bd770.jpg",
     "index.html": "/index.html",
     "main.b1ea10d3.css.map": "/static/css/main.b1ea10d3.css.map",
-    "main.3a318af9.js.map": "/static/js/main.3a318af9.js.map",
+    "main.25de3d08.js.map": "/static/js/main.25de3d08.js.map",
     "453.76d7676e.chunk.js.map": "/static/js/453.76d7676e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1ea10d3.css",
-    "static/js/main.3a318af9.js"
+    "static/js/main.25de3d08.js"
   ]
 }

@@ -8,8 +8,8 @@ import 'swiper/css/pagination';
 import { useRef } from 'react';
 
 import image1 from '../asset/carousel/image1.png';
-import image5 from '../asset/carousel/carouselnew/BMP 2.avif';
-import image8 from '../asset/carousel/carouselnew/Defence-Vehicles.jpeg';
+import image5 from '../asset/carousel/carouselnew/BMP 2.png';
+import image8 from '../asset/carousel/carouselnew/Defence-Vehicles.png';
 
 
 const slides = [

@@ -2,10 +2,10 @@
 import React from 'react';
 import nagarajLogo from '../asset/nagaraj.png';
 import tank from '../asset/Product-photos.jpg';
-import Karthika from '../asset/team/Karthika.jpeg';
+import Karthika from '../asset/team/Karthika.png';
 import Ravindran from '../asset/team/Ravindran.png';
 import Sankar from '../asset/team/Sankar.png';
-import Saravanan from '../asset/team/Saravanan.jpeg';
+import Saravanan from '../asset/team/Saravanan.png';
 import Varadarajan from '../asset/team/Varadarajan.jpg';
 import Customers from '../components/Customers';
 
