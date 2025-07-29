@@ -52,7 +52,7 @@ export default function SwiperCarousel() {
                 <img
                   src={slide.src}
                   alt={slide.alt}
-                  className="w-full h-full object-cover sm:object-fill"
+                  className="w-full h-full object-conver"
                 />
               {slide.content && (
                 <div className="absolute inset-0 z-10">{slide.content}</div>

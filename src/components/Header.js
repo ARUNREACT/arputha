@@ -4,7 +4,7 @@ import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import logoImage from '../asset/arputha-logo.png';
 import armol from '../asset/armol.png';
-import IPlogo from '../asset/IP Logo_rev1.png';
+import Certificate from '../asset/certificate.png';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -25,13 +25,13 @@ export default function Header() {
             <img
               alt="Logo"
               src={logoImage}
-              className="sm:h-24 w-[7rem] sm:w-[16rem] w-auto object-cove"
+              className="sm:h-24 w-[6rem] sm:w-[16rem] w-auto object-cove"
             />
           </a>
           <img
               alt="IPlogo"
-              src={IPlogo}
-              className="w-[5rem] sm:h-36 sm:w-36 object-contain"
+              src={Certificate}
+              className="w-[4rem] sm:h-36 sm:w-36 object-contain bg-gray-900"
             />
         </div>
         <div className="flex lg:hidden order-3 order-sm-2">
@@ -51,12 +51,12 @@ export default function Header() {
             </a>
           ))}
         </div>
-        <div className="flex lg:flex-1 justify-center order-1 order-sm-3 -ml-10 sm:ml-end">
+        <div className="flex lg:flex-1 justify-center order-1 order-sm-3 -ml-20 sm:ml-end">
             <a href="/" className="">
               <img
                 alt="armol"
                 src={armol}
-                className="w-[5rem] sm:h-24 sm:w-28 w-auto object-cover"
+                className="w-[4rem] sm:h-24 sm:w-28 w-auto object-cover"
               />
             </a>
             <span className="text-end block font-bold sm:-mt-5 sm:-ml-10 -mt-3 -ml-5">TM</span>
@@ -71,7 +71,7 @@ export default function Header() {
               <img
                 alt=""
                 src={logoImage}
-                className="sm:h-24 w-[12rem] sm:w-[16rem] w-auto pb-3"
+                className="sm:h-24 w-[8rem] sm:w-[16rem] w-auto pb-3"
               />
             </a>
             <button
