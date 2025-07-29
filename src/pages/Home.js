@@ -50,9 +50,9 @@ function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-10xl sm:text-center">
               <h2 className="text-xl sm:text-2xl font-semibold text-orange-600">Innovative Solutions for a Smarter Future</h2>
-              <p className="mt-2 text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl sm:text-balance">
+              <h2 className="mt-2 text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl sm:text-balance">
                 Transforming Ideas into Advanced Technologies for Defense, Lighting and Its Control Units.
-              </p>
+              </h2>
               <p className="mt-6 text-xl text-gray-600">
                 At Arputha Advanced Systems, we specialize in the design, development, and manufacturing of cutting-edge LED lighting systems and their control units for military tanks and armored vehicles. As iDEX DISC 6 winners, we are committed to delivering high-value solutions that enhance market presence and strengthen brand equity.
               </p>
@@ -60,13 +60,19 @@ function Home() {
           </div>
           <div className="relative overflow-hidden pt-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <img
+              {/*<img
                 alt="App screenshot"
                 src="https://img.freepik.com/free-photo/people-repairing-computer-chips_23-2150880942.jpg?t=st=1743767660~exp=1743771260~hmac=7eaf5eadc4dbc2290629cd155b76c58f49641a56e87b6005a2ee0c3c606728a6&w=996"
                 width={2432}
                 height={1442}
                 className="mb-[-12%] rounded-xl ring-1 shadow-2xl ring-gray-900/10"
-              />
+              />*/}
+              <section className='flex justify-center max-w-7xl mx-auto'>
+                <video className='sm:w-full w-full' controls>
+                  <source src="/lightings-fixed.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </section>
               <div aria-hidden="true" className="relative">
                 <div className="absolute -inset-x-20 bottom-0 bg-linear-to-t from-white pt-[7%]" />
               </div>
@@ -77,11 +83,11 @@ function Home() {
         <Gallery/>
         <section className="bg-white">
           <div className="mx-auto max-w-7xl py-12 sm:px-6 sm:py-32 lg:px-8">
-            <div className="relative isolate overflow-hidden bg-gray-700 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
-              <h2 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
+            <div className="relative isolate overflow-hidden bg-orange-200 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
+              <h2 className="text-3xl font-semibold tracking-tight text-balance text-black sm:text-5xl">
                 Powering Innovation with Advanced Electronics
               </h2>
-              <p className="mx-auto mt-6 max-w-4xl text-lg/8 text-pretty text-white">
+              <p className="mx-auto mt-6 max-w-4xl text-lg sm:text-2xl text-pretty text-black">
                 Arputha Advanced Systems delivers 
                 high-impact products engineered for real-world performance. Partner with us to bring your ideas to life.
               </p>

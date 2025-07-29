@@ -8,6 +8,7 @@ import Sankar from '../asset/team/Sankar.png';
 import Saravanan from '../asset/team/Saravanan.png';
 import Varadarajan from '../asset/team/Varadarajan.jpg';
 import Customers from '../components/Customers';
+import MissionVision from '../asset/vision_mission_resized.png';
 
 const management = [
    {
@@ -17,7 +18,7 @@ const management = [
   },
   {
     name: 'Sankar ',
-    role: 'BD & Sales – Tanks& Armoured vehicles',
+    role: 'BD & Sales',
     imageUrl:Sankar,
   },
   {
@@ -72,19 +73,20 @@ export default function About() {
           }}
           className="aspect-801/1036 w-[50.0625rem] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
         >
-          
         </div>
       </div>
 
       <div className="overflow-hidden">
-        <div className="mx-auto max-w-7xl px-6 mt-36 sm:pb-32 sm:pt-60 lg:px-8 lg:mt-4">
+        <div className="mx-auto max-w-7xl px-6 mt-40 sm:pb-32 sm:pt-60 lg:px-8 lg:mt-4">
           <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
             <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
               <h1 className="text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl">
                 About us
               </h1>
               <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-               Arputha Advanced Systems Pvt. Ltd. is a tech-driven startup specializing in advanced electronics for defense. As iDEX DISC 6 winners, we are developing LED lighting and control systems for BMP II tanks.
+               Arputha Advanced Systems is a DPIIT-recognized and ISO 9001:2015 certified defense technology company specializing in advanced lighting and control systems for military vehicles. Headquartered in Coimbatore and incubated at CDIIC and PSG-STEP, we are proud iDEX winners currently developing and manufacturing the LED lights ,Light control unit and Wiring harness,Our hand holding partners are DIO and StartupTN. Our team brings together deep technical expertise.
+              </p >
+              <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">We have filed intellectual property rights related to defense lighting and embedded control systems on key product lines. Our portfolio includes MIL-grade headlights, dome lights, marker lights,Marker control unit and digital turret identification displays designed specifically for platforms like the BMP-2 , MBT tanks  and Armored Vehicles.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
@@ -146,6 +148,34 @@ export default function About() {
           </div>
         </div>
       </div>
+
+       <div className="flex flex-col md:flex-row items-center gap-8 px-6 py-12 max-w-7xl mx-auto">
+      {/* Left: Text Content */}
+      <div className="md:w-2/3">
+        <h2 className="text-xl sm:text-5xl font-bold text-gray-800 mb-4">Vision</h2>
+        <p className="text-gray-700 mb-8 text-lg text-justify">
+          To become India’s leading provider of advanced lighting and embedded control systems for defense platforms, driving self-reliance in mission-critical technologies through innovation, precision engineering, and operational excellence.
+        </p>
+
+        <h2 className="text-xl sm:text-5xl font-bold text-gray-800 mb-4">Mission</h2>
+        <ul className="list-disc text-lg list-inside space-y-3 text-gray-700 list-none text-justify">
+          <p>To design and manufacture rugged, MIL-grade lighting and control solutions for armored vehicles, tailored to Indian defense requirements.</p>
+          <p>To continuously innovate through in-house R&D, IP development, and collaborations with defense stakeholders.</p>
+          <p>To contribute to national defense capabilities under the Atmanirbhar Bharat initiative by delivering reliable, indigenous alternatives to imported technologies.</p>
+          <p>To build a world-class team of experts from defense, automotive, and embedded systems backgrounds.</p>
+          <p>To uphold the highest standards of quality, safety, and performance in every product we deliver.</p>
+        </ul>
+      </div>
+
+      {/* Right: Image */}
+      <div className="md:w-1/2">
+        <img
+          src={MissionVision} // Replace with your actual path
+          alt="Defense Technology Vision"
+          className="w-[150rem] object-cover h-full"
+        />
+      </div>
+    </div>
 
 {/*      <section className="bg-white py-8">
         <div className="relative pt-16 lg:pt-20">

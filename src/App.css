@@ -1,3 +1,11 @@
+* {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+p {
+  font-family: system-ui !important;
+}
 .App {
   text-align: center;
 }
