@@ -18,6 +18,8 @@ import product15 from '../asset/products/product15.png';
 import product16 from '../asset/products/product16.png';
 import product17 from '../asset/products/product17.png';
 import product18 from '../asset/products/product18.png';
+import product19 from '../asset/products/product19.png';
+import product20 from '../asset/products/product20.png';
 
 const products = [
   {
@@ -89,6 +91,27 @@ const products = [
       { icon: product14, label: 'MIL Grade' },
       { icon: product15, label: '203x80mm' },
       { icon: product17, label: 'PILOT LAMP' },
+    ],
+  },
+  {
+    title: 'MARKER LIGHT',
+    images: [product19],
+    specs: [
+      { icon: product15, label: '110x101mm' },
+      { icon: product18, label: 'RED / AMBER / GREEN / WHITE' },
+      { icon: product4, label: '10 – 32V' },
+      { icon: product5, label: '3W' },
+      { icon: product8, label: '105 LUMEN' },
+      { icon: product6, label: 'JS55555 EMI/EMC:461E/F' },
+      { icon: product7, label: 'IP67' },
+    ],
+  },
+  {
+    title: 'MARKER CONTROL UNIT',
+    images: [product20],
+    specs: [
+      { icon: product15, label: '135x132x46mm' },
+      { icon: product14, label: 'MIL Grade' },
     ],
   },
 ];
